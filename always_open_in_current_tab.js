@@ -1,2 +1,1 @@
-console.log("Opening in new tab");
 document.querySelectorAll('a[target="_blank"]').forEach(a => a.target="");

@@ -2,7 +2,7 @@
   "name": "Always open in current tab",
   "description": "This basically removes target='_blank' from links and they always open in the current tab. Icon based on open new window by Syafiqa Fickle from the Noun Project",
   "manifest_version": 2,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage_url": "https://github.com/andreicristianpetcu/always_open_in_current_tab",
   "icons": {
     "16": "images/icon-16.png",
@@ -20,7 +20,8 @@
       "matches": ["<all_urls>"],
       "js": [
         "always_open_in_current_tab.js"
-      ]
+      ],
+      "run_at": "document_start"
     }
   ]
 }

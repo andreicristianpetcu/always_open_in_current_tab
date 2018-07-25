@@ -1,0 +1,15 @@
+{
+  "name": "Always open in current tab",
+  "description": "This basically removes target='_blank' from links and they always open in the current tab.",
+  "manifest_version": 2,
+  "version": "1.0.0",
+  "homepage_url": "https://github.com/andreicristianpetcu/always_open_in_current_tab",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": [
+        "always_open_in_current_tab.js"
+      ]
+    }
+  ]
+}
